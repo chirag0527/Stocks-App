@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
+
+*{
+    font-family: 'Wellfleet', cursive;
+    margin: 0;
+    padding: 0;
+    color: black;
+
+}
+
+body{
+    background: #1D976C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.flexContainer{
+    background-color: rgb(236, 200, 78);
+
+
+
+
+    border: 3px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    width: 30vw;
+    margin: 40px auto;
+}
+
+.logos{
+    position: relative;
+    bottom: 80vh;
+    left: 6vw;
+}
+
+.Input {
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    width: 20vw;
+    color: black;
+}
+
+.Input:focus{
+    outline: none;
+}
+
+.checkbtn{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    background-color: rgb(35, 206, 43);
+    width: 10vw;
+    min-height: 7vh;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.checkbtn:hover{
+    background-color: black;
+    background-blend-mode: overlay;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+}
